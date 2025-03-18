@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#898989;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+	--fondo-sections: #f9f9f9;
+}
+body{
+	font-size: 14px;
+	font-family: "Catamaran", sans-serif;
+}
+
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+
+#hero{
+	text-align: center;
+}
+
+#hero p{
+	color: var(--color-general);
+	padding-bottom:50px;
+	padding-top:15px;
+}
+
+#services{
+	text-align: center;
+	background-color: var(--fondo-sections);
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+
+.service-icon{
+	font-size: 120px;
+}
+
+.checkmark{
+	font-size: 40px;
+}
+
+#services h3{
+	font-size: 20px;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	font-weight:600;
+}
+
+#cta{
+	background-image: url("file:///C:/Users/Amy%20Melara/Documents/Q1%202025/aprendizaje/Dise%C3%B1oWeb1/prueba2/prueba2/img/using-touchscreen.jpg");
+	padding-bottom: 100px;
+	padding-top: 120px;
+	color: white;
+}
+
+#cta h2{
+	font-size: 130px;
+}
+
+#cta p{
+	font-size: 25px;
+}
+
+.btn-light{
+    background: var(--color-iconos);
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-weight: 800;
+	border-radius: 50px;
+	border:none;
+	color: var(--color-titulos);
+	margin-top: 50px;
+}
+
+#cutomers{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
